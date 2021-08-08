@@ -12,7 +12,7 @@ int main()
 
     getline(cin, number1);  //get the number from the user 
     
-    string bodyp = "Enter a body part "
+    string bodyp = "Enter a body part ";
         
     getline(cin, bodyp);  //get the number from the user 
 
