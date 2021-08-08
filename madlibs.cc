@@ -12,7 +12,7 @@ int main()
 
     getline(cin, sometext);  //get the number from the user 
 
-    cout << "You entered: " << sometext << endl;  //Writing the given text back to the console.
+    cout << "Scout has " << sometext << "legs" <<endl;  //Writing the given text back to the console.
 
     return 0;
 }
