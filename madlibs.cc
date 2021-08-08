@@ -10,9 +10,12 @@ int main()
 
     //cout << "Initial value of sometext is: " << sometext << endl;  
 
-    getline(cin, sometext);  //get the number from the user 
+    getline(cin, number1);  //get the number from the user 
     
     string bodyp = "Enter a body part "
+        
+    getline(cin, bodyp);  //get the number from the user 
+
 
     cout << "Scout has " << number1 << bodyp <<endl;  //Writing the given text back to the console.
 
