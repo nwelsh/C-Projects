@@ -6,13 +6,15 @@ using namespace std;
 int main() 
 { 
 //string 
-    string sometext="Enter a number"; 
+    string number1="Enter a number"; 
 
     //cout << "Initial value of sometext is: " << sometext << endl;  
 
     getline(cin, sometext);  //get the number from the user 
+    
+    string bodyp = "Enter a body part "
 
-    cout << "Scout has " << sometext << "legs" <<endl;  //Writing the given text back to the console.
+    cout << "Scout has " << number1 << bodyp <<endl;  //Writing the given text back to the console.
 
     return 0;
 }
