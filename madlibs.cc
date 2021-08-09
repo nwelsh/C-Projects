@@ -1,5 +1,5 @@
 // I am doing a madlibs to practice input output in C++
-// August 8, 2021
+// August 9, 2021
 
 #include<iostream> 
 #include<string>
@@ -10,11 +10,13 @@ int main()
     string number1="Enter a number"; 
 
     //cout << "Initial value of sometext is: " << sometext << endl;  
+
+    getline(cin, number1);  //get the number from the user     
+
     
     string bodyp = "Enter a body part ";
     
     
-    getline(cin, number1);  //get the number from the user     
     getline(cin, bodyp);  //get the bodypart from the user 
 
 
